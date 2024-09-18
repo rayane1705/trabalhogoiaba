@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="src/images/RECORTE5-removebg-preview.png" alt="">
+            <i class="fa-solid fa-burge" id="nav_logo"> </i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default" a href="peca.html" > 
+                <a href="peca.html"> Peça aqui </a>
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    benefícios da 
+                    <span>goiaba em pó</span>
+                </h1>
+
+                <p class="description">
+                    A goiabada em pó geralmente possui menos calorias por porção, 
+                    uma vez que pode conter menos açúcar e água em comparação com a versão tradicional.
+                </p>
+
+                <p class="description">
+                    Por ser em pó, a goiabada em pó pode ter uma vida útil mais longa e ser mais fácil
+                     de armazenar, sem a necessidade de refrigeração, o que pode ser uma vantagem.
+                </p>
+
+               
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver Receitas
+                    </a>
+
+                    <a href="tel:+55555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (21) 9858-0000
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/GOIABA-INICIO4.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Receitas</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/receita-de-geleia.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Compotas e Geleias
+                    </h3>
+
+                    <span class="dish-description">
+                        Misture a goiabada em pó com água ou suco para criar uma 
+                        compota ou geleia rápida.
+ 
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        
+                    </div>
+                </div>
+                
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/Captura1.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Smoothies e Milkshakes
+                    </h3>
+
+                    <span class="dish-description">
+                        Adicione goiabada em pó aos seus smoothies ou milkshakes para dar um sabor doce e frutado.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/panqueca-americana-pancake-removebg-preview.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Panquecas e Waffles
+                    </h3>
+
+                    <span class="dish-description">
+                        Polvilhe goiabada em pó sobre 
+                        panquecas ou waffles quentes para um toque especial.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(200+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4></h4>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/bolo-de-goiabada-1-removebg-preview.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Muffins e Bolos
+                    </h3>
+
+                    <span class="dish-description">
+                        Adicione goiabada em pó à massa de muffins ou bolos para um sabor extra.
+                         Você pode misturá-la diretamente na massa ou usar como parte do recheio.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+
+                        
+                    </div>
+
+                    
+
+                    <div class="dish-price">
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/COPO-GOIABA.jpg" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/cintia-photoaidcom-cropped.jpeg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Cíntia Silva
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                
+                            </p>
+                            
+                            <p>
+                                "Comecei a usar o GoWhey e já sinto uma grande diferença na minha energia e disposição. 
+                                A entrega foi super rápida e o produto chegou bem embalado. Recomendo muitoooo🙌🙌❤️"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/foto.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Thalita Moni
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "O produto chegou em tempo recorde. Super recomendo! ❤️❤️❤️❤️🙌🙌."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="feedback">
+                    <img src="src/images/rAYANE.jpg" class="feedback-avatar" alt="">
+
+                    <div class="feedback-content">
+                        <p>
+                            Rayane Santos
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            "Adorei o GoWhey! 
+                            Meus treinos estão muito mais produtivos agora. Chegou super rápido!❤️👍😍"
+                        </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+                
+            </div>
+            
+            
+        </section>
+        
+    </main>
+
+    <footer>
+        <img src="src/images/RECORTE5-removebg-preview.png" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+              TRABALHO ACADÊMICO - UNIASSELVI &copy 2024 
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+
+        
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
